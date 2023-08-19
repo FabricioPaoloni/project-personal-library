@@ -5,11 +5,7 @@ const BookSchema = mongoose.Schema({
         type: String,
         require: true
     },
-    commentCount: {
-        type: Number,
-        default: 0
-    },
-    comment: {
+    comments: {
         type: Array,
         default: []
     }
